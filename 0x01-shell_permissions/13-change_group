@@ -1,2 +1,2 @@
-#!/bin/Bash
-sudo chown school hello
+#!/bin/bash
+chown school hello
