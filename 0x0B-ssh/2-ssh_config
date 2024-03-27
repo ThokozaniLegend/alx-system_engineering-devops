@@ -1,6 +1,11 @@
+#!/usr/bin/env bash
 # SSH client configuration to use the private key ~/.ssh/school
-# SSH client configuration to refuse to authenticate using a password
+# SSH client configuration to refuse to authenticate using a passwor
 
-Host 18.234.107.222
+Host *
      PasswordAuthentication no
      IdentityFile ~/.ssh/school
+     SendEnv LANG LC_*
+     HashKnownHosts yes
+     GSSAIAuthentication yes
+     GSSAIDelegateCredentials no
