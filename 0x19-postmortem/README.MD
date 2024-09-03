@@ -1,4 +1,6 @@
-ssue Summary
+![MEMMORY LEAK ISSUE](https://user-images.githubusercontent.com/26696962/207142298-628de0b8-809c-4b59-aa2d-a610589101d5.jpg)
+
+### Issue Summary
 
 **Duration:**  
 - Start: September 1, 2024, 10:30 AM (UTC)  
@@ -13,8 +15,6 @@ A memory leak in our payment processing microservice was the culprit. Think of i
 ---
 
 ### Timeline
-
-![Timeline Diagram](https://via.placeholder.com/800x200?text=Timeline+Diagram)
 
 - **10:35 AM:** Monitoring tools started shouting at us with alerts about a nosedive in transaction completions.
 - **10:40 AM:** I put on my detective hat and suspected the database was guilty due to slow queries.
