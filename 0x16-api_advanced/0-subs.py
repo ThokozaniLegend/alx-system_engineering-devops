@@ -8,7 +8,6 @@ import requests
 def number_of_subscribers(subreddit):
     """
     Get the number of subscribers for a given subreddit.
-    
     Returns:
     int: Number of subscribers or 0 if the subreddit is invalid.
     """
@@ -23,4 +22,3 @@ def number_of_subscribers(subreddit):
     num_subs = data.get("subscribers", 0)  # Handle missing 'subscribers'
 
     return num_subs
-
